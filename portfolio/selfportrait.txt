@@ -1,0 +1,98 @@
+   function setup() {
+  createCanvas(600, 600);
+}
+
+function draw() {
+  background(50,55,100);
+
+ //back hair
+fill(0, 50, 100);
+beginShape()
+vertex(195,289);
+vertex(200,455);
+vertex(200,495);
+vertex(200,495);
+vertex(399,495);
+vertex(399,495);
+vertex(399,440);
+vertex(399,289);
+endShape()
+
+
+//face
+  fill(234, 192, 134);
+  ellipse(300, 300, 210, 245);
+
+  //ears
+  fill(234, 192, 134);
+  ellipse(195, 315, 29, 44);
+  ellipse(405, 315, 29, 44);
+  
+  //lefteye
+ fill(255)
+ circle(260, 300, 30)
+ fill(1)
+ circle(260, 300, 19)
+ 
+ //righteye
+fill(255)
+circle(340, 300, 30)
+fill(1)
+circle(340, 300, 19)
+
+ //mouth
+line(285,379, 315,379);
+
+//hair
+fill(0);
+beginShape();
+vertex(240,250);
+vertex(330,280);
+vertex(338,280);
+vertex(389,330);
+vertex(375,399);
+vertex(375,388);
+vertex(375,425);
+vertex(385,469);
+vertex(399,425);
+vertex(405,459);
+vertex(410,420);
+vertex(415,395);
+vertex(420,369);
+vertex(430,329);
+vertex(400,219);
+vertex(309,165);
+vertex(240,179);
+endShape();
+
+//left hair
+fill(0);
+beginShape();
+vertex(219,330);
+vertex(229,399);
+vertex(219,390);
+vertex(220,429);
+vertex(219,459);
+vertex(200,420);
+vertex(190,459);
+vertex(185,420);
+vertex(180,379);
+vertex(180,370);
+vertex(179,330);
+vertex(215,185);
+vertex(279,219);
+vertex(215,339);
+endShape();
+
+//neck
+fill(234, 192, 134);
+rect(285,422,30,39);
+
+//body
+fill(100)
+ellipse(300,599,215,300)
+
+  // longsleeve
+  fill(100);
+  rect(191, 480, 29, 145, 12);
+  rect(380, 480, 29, 145, 12);
